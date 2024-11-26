@@ -1,0 +1,20 @@
+docker_elasticsearch:
+  hosts:
+    es_datanode_01:
+      ansible_host: 212.22.11.24
+      ansible_ssh_user: root
+      ansible_ssh_pass: Mec@CloudEdge2023
+    es_datanode_02:
+      ansible_host: 212.22.11.25
+      ansible_ssh_user: root
+      ansible_ssh_pass: xxxxx
+    es_datanode_03:
+      ansible_host: 212.22.11.26
+      ansible_ssh_user: root
+      ansible_ssh_pass: xxxxx
+docker_kibana:
+  hosts:
+    es_datanode_01:
+      ansible_host: 212.22.11.24
+      ansible_ssh_user: root
+      ansible_ssh_pass: xxxxx
